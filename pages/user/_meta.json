@@ -1,6 +1,3 @@
 {
-  "install": "Installation Guide",
-  "rpk": "Rhino PKG",
-  "nvidia": "Nvidia Drivers",
-  "switch": "Switch to UBXI"
+  "commands": "Commands Manual"
 }
