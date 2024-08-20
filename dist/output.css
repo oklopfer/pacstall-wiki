@@ -554,56 +554,46 @@ video {
   --tw-contain-style:  ;
 }
 
+/* Runes */
+
 @font-face {
-  font-family: "Ubuntu";
+  font-family: 'FiraCodeNF';
 
-  font-weight: 400;
+  src: url('FiraCodeNF-Regular.ttf') format('truetype');
 
-  src: url("Ubuntu-Regular.ttf");
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: 'FiraCodeNF';
 
-  font-weight: 500;
+  src: url('FiraCodeNF-Bold.ttf') format('truetype');
 
-  src: url("Ubuntu-Medium.ttf");
+  font-weight: bold;
+
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: 'Open Sans';
 
-  font-weight: 300;
+  src: url('OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
 
-  src: url("Ubuntu-Light.ttf");
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: 'Open Sans';
 
-  font-weight: 700;
+  src: url('OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
 
-  src: url("Ubuntu-Bold.ttf");
-}
-
-@font-face {
-  font-family: "UbuntuMono";
-
-  font-weight: 400;
-
-  src: url("UbuntuMono-Regular.ttf");
-}
-
-@font-face {
-  font-family: "UbuntuMono";
-
-  font-weight: 700;
-
-  src: url("UbuntuMono-Bold.ttf");
+  font-style: italic;
 }
 
 p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-ellipsis, .nx-font-medium, .nx-text-xs, .nx-select-none, .nextra-callout {
-  font-family: "Ubuntu", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 :is(html[class~=dark] .dark\:nx-border-neutral-800) {
@@ -617,7 +607,7 @@ p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-el
 
 :is(html[class~=dark] footer), :is(html[class~=dark] ul), :is(html[class~=dark] .nx-sticky), :is(html[class~=dark] .nextra-callout), :is(html[class~=dark] [id=__next]), :is(html[class~=dark] .nextra-sidebar-container) {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(25 20 45 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(26 32 44 / var(--tw-bg-opacity)) !important;
 }
 
 .nx-sticky {
@@ -685,7 +675,7 @@ p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-el
 
 :is(html[class~=dark] .nx-text-primary-600), :is(html[class~=dark] .nx-text-primary-800) {
   --tw-text-opacity: 1 !important;
-  color: rgb(141 123 228 / var(--tw-text-opacity)) !important;
+  color: rgb(56 178 172 / var(--tw-text-opacity)) !important;
 }
 
 .nx-mr-2.nx-rounded-t {
@@ -693,8 +683,8 @@ p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-el
 }
 
 code, kbd, samp, pre {
-  font-family: "UbuntuMono", monospace !important;
-  font-size: 102% !important;
+  font-family: "FiraCodeNF", monospace !important;
+  font-size: 95% !important;
 }
 
 .line {

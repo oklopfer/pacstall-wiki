@@ -35,10 +35,10 @@ const config: DocsThemeConfig = {
     text: 'Rhino Linux Wiki',
   },
   primarySaturation: {
-    dark: 37,
+    dark: 100,
     light: 80,
   },
-  primaryHue: 256,
+  primaryHue: 185,
 }
 
 export default config
