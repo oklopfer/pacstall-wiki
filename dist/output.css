@@ -596,6 +596,11 @@ p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-el
   font-family: "Open Sans", sans-serif !important;
 }
 
+h1, h2 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(56 178 172 / var(--tw-text-opacity)) !important;
+}
+
 :is(html[class~=dark] .dark\:nx-border-neutral-800) {
   border-color: rgb(85 75 105 / 0.3) !important;
 }
