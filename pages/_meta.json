@@ -5,13 +5,13 @@
   "home": {
     "title": "Home",
     "type": "page",
-    "href": "https://rhinolinux.org",
+    "href": "https://pacstall.dev",
     "newWindow": false
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://discord.gg/reSvc8Ztk3",
+    "href": "https://discord.gg/yzrjXJV6K8",
     "newWindow": true
   }
 }

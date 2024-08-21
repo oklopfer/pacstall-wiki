@@ -21,23 +21,42 @@
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Italic.ttf') format('truetype');
+  font-weight: normal;
   font-style: italic;
 }
 
 p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-ellipsis, .nx-font-medium, .nx-text-xs, .nx-select-none, .nextra-callout {
   font-family: "Open Sans", sans-serif !important;
+  font-size: 99%;
 }
 
 h1, h2 {
-  @apply !nx-text-rhino-purple;
+  @apply !nx-text-brand-teal;
 }
 
 :is(html[class~=dark] .dark\:nx-border-neutral-800) {
@@ -98,11 +117,7 @@ h1, h2 {
 }
 
 .nx-text-primary-600, .nx-text-primary-800 {
-  @apply !nx-text-highlighter-purple;
-}
-
-:is(html[class~=dark] .nx-text-primary-600), :is(html[class~=dark] .nx-text-primary-800) {
-  @apply !nx-text-rhino-purple;
+  @apply !nx-text-brand-teal;
 }
 
 .nx-mr-2.nx-rounded-t {

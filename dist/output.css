@@ -135,7 +135,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: UbuntuMono, mono;
+  font-family: FiraCodeNF, mono;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -579,7 +579,9 @@ video {
 @font-face {
   font-family: 'Open Sans';
 
-  src: url('OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('OpenSans-Bold.ttf') format('truetype');
+
+  font-weight: bold;
 
   font-style: normal;
 }
@@ -587,13 +589,36 @@ video {
 @font-face {
   font-family: 'Open Sans';
 
-  src: url('OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('OpenSans-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+
+  src: url('OpenSans-BoldItalic.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+
+  src: url('OpenSans-Italic.ttf') format('truetype');
+
+  font-weight: normal;
 
   font-style: italic;
 }
 
 p, h1, h2, h3, h4, hr, td, tr, ul, ol, li, a, footer, article, main, .nx-text-ellipsis, .nx-font-medium, .nx-text-xs, .nx-select-none, .nextra-callout {
   font-family: "Open Sans", sans-serif !important;
+  font-size: 99%;
 }
 
 h1, h2 {
@@ -602,12 +627,12 @@ h1, h2 {
 }
 
 :is(html[class~=dark] .dark\:nx-border-neutral-800) {
-  border-color: rgb(85 75 105 / 0.3) !important;
+  border-color: rgb(113 128 150 / 0.3) !important;
 }
 
 .nx-flex:before {
-  border-color: rgb(85 75 105 / 0.3) !important;
-  background-color: rgb(85 75 105 / 0.3) !important;
+  border-color: rgb(113 128 150 / 0.3) !important;
+  background-color: rgb(113 128 150 / 0.3) !important;
 }
 
 :is(html[class~=dark] footer), :is(html[class~=dark] ul), :is(html[class~=dark] .nx-sticky), :is(html[class~=dark] .nextra-callout), :is(html[class~=dark] [id=__next]), :is(html[class~=dark] .nextra-sidebar-container) {
@@ -674,11 +699,6 @@ h1, h2 {
 }
 
 .nx-text-primary-600, .nx-text-primary-800 {
-  --tw-text-opacity: 1 !important;
-  color: rgb(146 53 255 / var(--tw-text-opacity)) !important;
-}
-
-:is(html[class~=dark] .nx-text-primary-600), :is(html[class~=dark] .nx-text-primary-800) {
   --tw-text-opacity: 1 !important;
   color: rgb(56 178 172 / var(--tw-text-opacity)) !important;
 }
